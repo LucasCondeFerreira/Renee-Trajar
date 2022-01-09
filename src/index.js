@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Container from './main/Container'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Container />
+    <h1>Texto de teste</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );

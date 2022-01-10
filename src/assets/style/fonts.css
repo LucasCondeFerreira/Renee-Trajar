@@ -1,0 +1,150 @@
+/*****************************************************
+
+  Fonte face Cormorant
+  
+  */
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Regular.ttf');
+  }
+
+    @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Italic.ttf');
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Light.ttf');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-LightItalic.ttf');
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Regular.ttf');
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Medium.ttf');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-MediumItalic.ttf');
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-SemiBold.ttf');
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-SemiBoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-Bold.ttf');
+    font-weight: 700;
+  }
+  
+    @font-face {
+    font-family: 'Cormorant';
+    src: url('../fonts/Cormorant/Cormorant-BoldItalic.ttf');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
+  /*****************************************************
+
+  Fonte face Lato 
+  
+  */
+
+  @font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Thin.ttf');
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-ThinItalic.ttf');
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Black.ttf');
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-BlackItalic.ttf');
+  font-weight: 900;
+  font-style: italic;
+}
+

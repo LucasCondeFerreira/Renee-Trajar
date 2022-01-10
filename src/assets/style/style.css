@@ -38,7 +38,8 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+}
 
 html {
   font-family: sans-serif;
@@ -51,6 +52,9 @@ html {
 @-ms-viewport {
   width: device-width; }
 
+
+
+  
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 

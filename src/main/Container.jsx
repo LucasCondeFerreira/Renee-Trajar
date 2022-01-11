@@ -12,7 +12,6 @@ import SectionSlide from './section/SectionSlide'
 import SectionContato from './section/SectionContato'
 import Footer from '../components/surfaces/footer/Footer'
 import '../assets/style/style.css'
-import '../assets/style/section.css'
 
 const LimitContainer = styled.div`
   max-width: 100vw;

@@ -11,7 +11,7 @@ const ContainerHeader = styled.header`
     padding: 25px 0 0;
 
     z-index: 3;
-    position: fixed;
+    position: absolute;
     justify-content: space-around;
 `
 

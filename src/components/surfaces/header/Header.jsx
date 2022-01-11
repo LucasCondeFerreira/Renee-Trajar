@@ -6,13 +6,13 @@ import '../../../assets/style/style.css'
 const ContainerHeader = styled.header`
     display: flex;
     flex-direction: row;
-
+    background: linear-gradient(180deg, #000000 29.73%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
     max-height: 112px;
     padding: 25px 0 0;
 
     z-index: 3;
-    position: absolute;
+    position: fixed;
     justify-content: space-around;
 `
 
@@ -35,7 +35,7 @@ const Links = styled.a`
 export const Header = () => {
     return (
     <ContainerHeader>
-        <img src={LogoHeader} alt='Logo do site' />
+        <img src={LogoHeader} id='topo' alt='Logo do site' />
         <nav>
             <List>
                 <li>

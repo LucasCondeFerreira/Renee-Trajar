@@ -1,0 +1,111 @@
+/* Edição das setas do carrousel
+*/
+
+.slick-prev, 
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-prev:hover:before,
+.slick-prev:focus:before
+{
+    left: 125px;
+    color: transparent;
+    background-color: transparent;
+    background-image: url(../../../src/assets/images/Dots-Left.svg);
+}
+
+.slick-prev:before
+{
+    content: none;
+}
+
+
+.slick-next:before
+{
+    content: none;
+}
+
+.slick-prev, 
+.slick-next, 
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus,
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    width: 20px;
+    height: 51px;
+
+    z-index: 1;
+
+    color: white;
+}
+
+.slick-next,
+.slick-next:hover:before,
+.slick-next:focus:before,
+.slick-next:hover,
+.slick-next:focus
+{
+    right: 125px;
+    color: transparent;
+    background-color: transparent;
+    background-image: url(../../../src/assets/images/Dots-Right.svg);
+}
+
+/*******************************************************
+
+    Edição das Dots do carroussel
+
+    */
+
+.slick-dots li button
+{
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+
+
+    color: #014561;
+    border: solid 1px #014561;
+    border-radius: 100%;
+    outline: #014561;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus
+{
+    outline: #014561;
+    background-color: #014561;
+}
+
+.slick-dots li button:before
+{
+    font-family: 'slick';
+    font-size: 10px;
+    line-height: 10px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 10px;
+
+    content: '•';
+    text-align: center;
+    color: #014561;
+    opacity: 0;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before
+{
+    opacity: 1;
+    width: 12px;
+    height: 12px;
+    color: #014561;
+    background-color: #014561;
+    border-radius: 100%;
+}

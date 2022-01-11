@@ -29,7 +29,15 @@ const Div = styled.div`
 
 `
 
-const P = styled.p`
+const P1 = styled.p`
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+
+    color: #BDBDBD;
+` 
+
+const P2 = styled.p`
     font-family: 'Lato';
     font-size: 16px;
     font-weight: 400;
@@ -60,13 +68,13 @@ export const Footer = () => {
         <ContainerFooter>
             <Div>
             <img src={LogoFooter} alt='Logo do rodapé' />
-            <A href="facebook.com">
+            <A href="#topo">
                 <Img src={ArrowUp} alt='Arrow up' />
             </A>
             </Div>
             <Div>
-                <P>CNPJ:04.487.685/0001-01</P>
-                <P>Copyright: 2021 © Renee Trajar - Todos os direitos reservados.</P>
+                <P1>CNPJ:04.487.685/0001-01</P1>
+                <P2>Copyright: 2021 © Renee Trajar - Todos os direitos reservados.</P2>
             </Div>
         </ContainerFooter>
     )

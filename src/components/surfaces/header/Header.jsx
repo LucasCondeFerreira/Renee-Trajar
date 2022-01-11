@@ -6,7 +6,6 @@ import '../../../assets/style/style.css'
 const ContainerHeader = styled.header`
     display: flex;
     flex-direction: row;
-    background: linear-gradient(180deg, #000000 29.73%, rgba(0, 0, 0, 0) 100%);
     width: 100%;
     max-height: 112px;
     padding: 25px 0 0;

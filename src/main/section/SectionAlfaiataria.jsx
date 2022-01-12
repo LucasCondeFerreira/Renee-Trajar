@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import '../../assets/style/style.css'
 import ButtonBlue from '../../components/data-display/Button/ButtonBlue'
 import Camisa2 from '../../assets/images/Camisa-2.png'
-
-
 const ContainerAlfaiataria = styled.div`
     -webkit-box-flex: 0;
     -ms-flex: 0 0 100%;
@@ -12,11 +10,12 @@ const ContainerAlfaiataria = styled.div`
     max-width: 100%; 
 
     position: relative;
-
+    
+    margin: 0 auto;
     padding: 80px 35px 26px 136px;
 
     max-height: 635px;
-
+    max-width: 1600px;
     display: flex;
 
     flex-wrap: wrap;

@@ -12,6 +12,7 @@ const ContainerDepoimento = styled.div`
 
     background-image: url(${Fundo});
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -65,10 +66,17 @@ const H5 = styled.h5`
     color: #BE9667;
 `
 
+const DivLimit = styled.div`
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+`
+
 
 export const SectionRenee = () => {
     return (
     <ContainerDepoimento>
+      <DivLimit>
               <Row>
                 <section className="col-md-7">
                   <Div>
@@ -88,6 +96,7 @@ export const SectionRenee = () => {
                 </section>
                 <section className="col-md-2"></section>
               </Row>
+        </DivLimit>
   </ContainerDepoimento>
     )
 }

@@ -9,11 +9,13 @@ import ImageTitle from '../../assets/images/ImageTitle.png'
 const ContainerHome = styled.div`
     
     background-image: url(${Banner});
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: black;
 
     position: relative;
-
-    padding: 50px 98px;
+    margin: 0 auto;
+    padding: 50px 10%;
 
     display: flex;
     flex-direction: column;
@@ -43,14 +45,22 @@ const Span = styled.span`
     font-size: 24px;
 `
 
+
+const DivLimit = styled.div`
+    max-width: 1300px;
+    display: flex;
+`
+
 export const SectionHome = () => {
     return (
     <ContainerHome>
+    <DivLimit>
     <Section>
       <img src={ImageTitle} width={'100%'} className='pb-5' alt='Title' />
       <H3 className='pb-4 '>COMPRE HOJE, <Span>PAGUE EM ATÉ 3X COM 12% DE DESCONTO</Span> E TENHA 10 MESES PARA CONFECCIONAR!</H3>
       <ButtonHome href="facebook.com" text='FAÇA JÁ UM ORÇAMENTO' />
     </Section>
+    </DivLimit>
   </ContainerHome>
     )
 }

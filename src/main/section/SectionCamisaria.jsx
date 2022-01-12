@@ -13,7 +13,9 @@ const ContainerCamisaria = styled.div`
     max-width: 100%; 
 
     position: relative;
-
+    max-width: 1600px;
+    
+    margin: 0 auto;
     padding: 80px 35px 26px 136px;
 
     max-height: 635px;

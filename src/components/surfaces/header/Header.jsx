@@ -8,6 +8,7 @@ const ContainerHeader = styled.header`
     flex-direction: row;
     width: 100%;
     max-height: 112px;
+    max-width: 1600px;
     padding: 25px 0 0;
 
     z-index: 3;

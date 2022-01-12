@@ -139,12 +139,18 @@ const H2 = styled.h2`
 `
 
 
+const DivLimit = styled.div`
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+`
 
 
 
 export const SectionContato = () => {
     return (
     <ContainerContato className='col-md-12'>
+      <DivLimit>
         <Row>
             <div className="col-md-4">
                 <H3>Telefones</H3>
@@ -171,6 +177,7 @@ export const SectionContato = () => {
                 </Form>
             </div>
         </Row>
+      </DivLimit>
     </ContainerContato>
   )
 }

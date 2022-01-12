@@ -81,9 +81,17 @@ const P2 = styled.p`
     font-size: 25px;
 `
 
+
+const DivLimit = styled.div`
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+`
+
 export const SectionRenee = () => {
     return (
     <ContainerSobre>
+        <DivLimit>
         <Row>
         <section className="col-md-4 mr-4">
             <img src={ReneePicture} alt='Renee Trajar' />
@@ -104,6 +112,7 @@ export const SectionRenee = () => {
             <ButtonBlue href="facebook.com" className='mt-3' text='Agende uma visita' />
         </section>
         </Row>
+        </DivLimit>
   </ContainerSobre>
     )
 }

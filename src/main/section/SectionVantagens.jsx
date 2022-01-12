@@ -29,16 +29,23 @@ const Row = styled.div`
 `
 
 
+const DivLimit = styled.div`
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+`
 
 
 export const SectionVantagens = () => {
     return (
     <ContainerVantagens>
+      <DivLimit>
               <Row>
                 <Icones src={Icone1} title='Qualidade' text='Camisaria e Alfaiataria 100% artesanal' />
                 <Icones src={Icone2} title='Confiança' text='Atendimento personalizado no escritório ou residência' />
                 <Icones src={Icone3} title='Experiência' text='Tradição e modernidade proporcionando elegância' />
               </Row>
+        </DivLimit>
   </ContainerVantagens>
     )
 }

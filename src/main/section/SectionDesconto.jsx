@@ -14,6 +14,7 @@ const ContainerDesconto = styled.div`
 
     background-image: url(${Fundo});
     background-repeat: no-repeat;
+    background-size: cover;
 
     display: flex;
     flex-direction: column;
@@ -71,10 +72,16 @@ const Span = styled.span`
     color: #C4C4C4;
 `
 
+const DivLimit = styled.div`
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+`
 
 export const SectionDesconto = () => {
     return (
     <ContainerDesconto>
+      <DivLimit>
               <Row>
               <div className="col-md-7 pr-3">
                   <H2>Condição Imperdível</H2>
@@ -100,6 +107,7 @@ export const SectionDesconto = () => {
                   <img src={Terno} alt="Terno" />
                 </div>
               </Row>
+          </DivLimit>
   </ContainerDesconto>
     )
 }

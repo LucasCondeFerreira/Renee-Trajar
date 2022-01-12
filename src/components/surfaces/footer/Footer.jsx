@@ -10,11 +10,12 @@ const ContainerFooter = styled.footer`
     columns: 1;
 
     position: relative;
-
+    margin: 0 auto;
     padding: 15px 49px 40px 198px;
     
     width: 100%;
     max-height: 175px;
+    max-width: 1600px;
 
     border-top: solid 1px #BE9667;
 `
